@@ -15,7 +15,7 @@ Once the user mouses over the input we want to give visual feedback that the use
 ### Step 3: User clicks on the input
 ![Step 3](https://user-images.githubusercontent.com/23367061/71768592-afe51280-2f17-11ea-9071-0008d0e0e9d4.png)
 
-Once the user clicks on the input we move the placeholder label (‘Contact’ in the example) to the top to remind the user what this field is filling in. The dropdown already opens so the user can make a selection.
+Once the user clicks on the input we move the placeholder label (‘Contact’ in the example) to the top to remind the user what this field is filling in. The dropdown already opens so the user can make a selection. Use the list of names in the provided JSON to be your list of names.
 
 The placeholder should react as follows:
 
