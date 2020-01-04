@@ -39,6 +39,15 @@ If you have built this all and still want to do more then you can get bonus poin
 * 100% test code coverage
 * Fancy animations
 
+## Scripts
+To start the server you can run:
+
+```npm run dev```
+
+To run the tests:
+
+```npm run test```
+
 ## Delivery
 Once you have read through the assignment, think about how you are going to solve this problem and let us know when you can deliver. This does not have to be ASAP as we expect you have other things to do too. Just make sure that we know when you will be delivering the code. To deliver the code either give us a link to a github repository or a zip file that we can run locally. We will review it and then set up a meeting to go through it.
 
