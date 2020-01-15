@@ -17,6 +17,8 @@ Once the user mouses over the input we want to give visual feedback that the use
 
 Once the user clicks on the input we move the placeholder label (‘Contact’ in the example) to the top to remind the user what this field is filling in. The dropdown already opens so the user can make a selection. Use the list of names in the provided JSON to be your list of names.
 
+Make sure that the dropdown is always visible (so if there is not enough space below the input it should be moved so that it is still in place without the page changing size).
+
 The placeholder should react as follows:
 
 ![Placeholder gif](https://user-images.githubusercontent.com/23367061/71768642-339eff00-2f18-11ea-85f2-2a8ac2dfb8c0.gif)
@@ -32,6 +34,10 @@ Once the user starts typing the list in the dropdown will be filtered.
 ![Step 5](https://user-images.githubusercontent.com/23367061/71768605-c68b6980-2f17-11ea-89d1-75c64ea82ea3.png)
 
 Once a selection is made it is shown in the dropdown.
+
+#### Technical points to keep in mind
+* The component will be a part of multiple pages with multiple components. So make sure that it can be used by many components. That will mean that the component should accept a list of names and the currently selected name as a prop. Tip: place 2 underneath each other and see how that works.
+* The dropdown should always be visible, so you will have to reposition it if the default position goes outside of the window. The page should not get bigger because of the dropdown.
 
 #### Bonus points
 If you have built this all and still want to do more then you can get bonus points for implementing any of the following features:
